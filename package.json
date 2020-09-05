@@ -1,0 +1,26 @@
+{
+  "name": "gostrim-homepage",
+  "author": {
+    "name": "Jay Jung",
+    "email": "beewee22@gmail.com",
+    "url": "https://github.com/beewee22/beewee22"
+  },
+  "homepage": "https://gostrim.github.io",
+  "license": "MPL 2.0",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1",
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "prettier --check \"src/**/*.js\""
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.2.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "@snowpack/plugin-run-script": "^2.1.1",
+    "prettier": "^2.0.5",
+    "snowpack": "^2.10.0"
+  }
+}
