@@ -1,11 +1,9 @@
 ---
-layout: layouts/base.njk
+layout: layouts/main.njk
 ---
 
-# About
+# ABOUT
 
-[11ty](https://www.11ty.dev/), powered by [Snowpack](http://snowpack.dev/).
+---
 
-<br/>
-
-[Back to Home](/)
+(대충 소개 페이지 내용)

@@ -15,19 +15,12 @@
       <a class="logo" href="/">Gostrim</a>
       <nav class="menu">
         <ul class="menu-wrap"> 
-          
-            <li class="menu-drop-down"><a href="/about">About</a></li>
-          
-            <li class="menu-drop-down"><a href="/kubeshore">Kubeshore</a></li>
-          
-            <li class="menu-drop-down"><a href="github">github</a></li>
-          
+          {% for menu in menus %}
+            <li class="menu-drop-down"><a href="{{menu.link}}">{{menu.text}}</a></li>
+          {% endfor %}
         </ul>
       </nav>
     </header>
-    
-
-<div>안녕하세요!</div>
-<div>(대충 메인 내용)</div>
+    {{ content | safe }}
   </body>
 </html>
