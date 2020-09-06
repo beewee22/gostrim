@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/static/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Web site created using create-snowpack-app" />
+    <link rel="stylesheet" type="text/css" href="/static/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="/static/index.css" />
+    <link rel="stylesheet" type="text/css" href="/static/layout.css" />
+    <title>GOSTRIM</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="/">Gostrim</a>
+      <nav class="menu">
+        <ul class="menu-wrap"> 
+          {% for menu in menus %}
+            <li class="menu-drop-down"><a href="{{menu.link}}">{{menu.text}}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+    {{ content | safe }}
+  </body>
+</html>
