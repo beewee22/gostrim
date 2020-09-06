@@ -11,13 +11,12 @@
     "start": "snowpack dev",
     "debug": "DEBUG=Eleventy* snowpack dev",
     "build": "snowpack build",
+    "flush": "snowpack --reload",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1",
     "format": "prettier --write \"src/**/*.js\"",
     "lint": "prettier --check \"src/**/*.js\""
   },
-  "dependencies": {
-    "canvas-confetti": "^1.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@snowpack/plugin-run-script": "^2.1.1",
