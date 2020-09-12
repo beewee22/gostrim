@@ -6,4 +6,6 @@ layout: layouts/main.njk
 
 ---
 
-(대충 소개 페이지 내용)
+Thanks for visiting this website.
+
+This is temporary we will open soon.
